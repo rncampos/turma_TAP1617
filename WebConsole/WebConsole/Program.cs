@@ -10,10 +10,12 @@ namespace WebConsole
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             string URL = "https://pt.wikipedia.org/wiki/C_Sharp";
             string html = Web.GetHTMLContentFromURL(URL);
             string textFromURL = Web.GetTextContentFromURL(URL);
+            char[] delimiterChars = { ' ','.','?',';',':','!'};
+            string[] lol = text.SplitWithDelimiter(textFromURL, delimiterChars);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace MyExtensionMethods
         //Necessário instalar o nuGet package OpenNLP
         //Depois é necessário acrescentar alguns usings (dependendo da funcionalidade a utilizar)
 
-        static string Path = @"OsAlunosDevemAquiEspecificarOCaminhoParaAPasta\OpenNLP\";
+        static string Path = @"C:\Users\kisc\Source\Repos\turma_TAP1617\MyExtensionMethods\OpenNLP\";
 
         /// <summary>
         /// A sentence splitter splits a paragraph in sentences. Technically, the sentence detector will compute the likelihood that a specific character ('.', '?' or '!' in the case of English) marks the end of a sentence.
